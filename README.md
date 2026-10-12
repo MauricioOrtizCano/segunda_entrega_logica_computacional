@@ -179,11 +179,11 @@ Los archivos `.class` generados son productos de compilación y no forman parte 
 
 Salida con todas las pruebas correctas:
 
-![Pruebas correctas](docs/pruebas_ok.png)
+![Pruebas correctas](prueba_correcta.png)
 
 Comprobación de que el invariante detecta errores: al cambiar temporalmente `boolean ok = true;` por `false`, la aserción falla desde la primera llamada (`El invariante falla al inicio`):
 
-![Fallo del invariante](docs/invariante_falla.png)
+![Fallo del invariante](prueba_incorrecta.png)
 
 ---
 
